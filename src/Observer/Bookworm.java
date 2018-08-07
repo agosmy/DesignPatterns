@@ -12,11 +12,10 @@ public class Bookworm implements ListeningPerson {
     public void listen() {
         String chapter = (String)reader.readAChapter(this);
         if (chapter == null) System.out.println("Why is it so quiet? Read!");
-        else System.out.println("Listening carefully to " + chapter);
+        else System.out.println(name + " is listening carefully to " + chapter);
     }
 
     @Override
     public void setReadingPerson(ReadingPerson rp) {
-        this.reader = rp;
-    }
+        this.reader = rp;    }
 }
