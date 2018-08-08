@@ -29,11 +29,6 @@ public class Lector implements ReadingPerson {
         }
     }
 
-    @Override
-    public Object readAChapter(ListeningPerson lp) {
-        return this.chapterRead;
-    }
-
     public void setChapterRead(String chapterRead){
         this.chapterRead = chapterRead;
     }

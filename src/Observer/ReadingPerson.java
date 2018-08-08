@@ -6,6 +6,4 @@ public interface ReadingPerson {
     void unregister(ListeningPerson lp);
 
     void startReading();
-
-    Object readAChapter(ListeningPerson lp);
 }

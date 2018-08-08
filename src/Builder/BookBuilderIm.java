@@ -5,7 +5,11 @@ import Singleton.TheOnlyAuthor;
 import java.util.List;
 
 public class BookBuilderIm implements BookBuilder {
-    private Book book = new Book();
+    private Book book;
+
+    public BookBuilderIm(){
+       book = new Book();
+    }
 
     @Override
     public Book build() {
