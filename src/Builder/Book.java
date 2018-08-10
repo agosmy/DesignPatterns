@@ -66,7 +66,7 @@ public class Book {
     public void read(){
         Lector lector = new Lector();
         Bookworm bookwormAnn = new Bookworm("Ann Booklover");
-        Bookworm bookwormRobert= new Bookworm("Rober Readingfreak");
+        Bookworm bookwormRobert= new Bookworm("Robert Readingfreak");
 
         lector.register(bookwormAnn);
         lector.register(bookwormRobert);
